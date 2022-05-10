@@ -10,6 +10,7 @@ const path = require('path');
 const defaultClasses = 'prose prose-sm m-auto text-left';
 
 module.exports = defineConfig({
+  publicPath: './',
   transpileDependencies: true,
   configureWebpack: {
     plugins: [
